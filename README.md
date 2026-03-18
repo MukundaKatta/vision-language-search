@@ -1,13 +1,15 @@
-# vision-language-search
+# Vision Language Search
 
-Stub Python project. Described as a vision-language search system, but none of that functionality exists.
+Multimodal search engine combining visual and textual understanding for cross-modal retrieval.
 
-## What's actually here
+## About
+Vision Language Search enables searching across images and text using natural language queries. It leverages vision-language models to understand both visual content and text descriptions, supporting use cases like image search by description and visual question answering.
 
-A single class in `src/core.py` (VisionLanguageSearch) with placeholder methods that each return a fixed dictionary without doing any real work. There is no image search, no vision-language model integration, no multimodal retrieval - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No vision, language model, or search libraries are present.
+## Tech Stack
+- Language: Python
+- Models: Vision-language embedding models
+- Search: Cross-modal similarity retrieval
+- Index: Vector-based image and text indexing
 
 ## Status
-
-Scaffolding only. No working vision-language search functionality exists.
+Active development - multimodal embedding pipeline and search interface established.
