@@ -1,41 +1,13 @@
 # vision-language-search
 
-**Multimodal search engine combining vision and language understanding**
+Stub Python project. Described as a vision-language search system, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (VisionLanguageSearch) with placeholder methods that each return a fixed dictionary without doing any real work. There is no image search, no vision-language model integration, no multimodal retrieval - just stubs.
 
-## Quick Start
-```python
-from src.core import VisionLanguageSearch
- instance = VisionLanguageSearch()
-r = instance.search(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No vision, language model, or search libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `search()` | Search |
-| `index()` | Index |
-| `rank()` | Rank |
-| `filter()` | Filter |
-| `get_suggestions()` | Get suggestions |
-| `export_results()` | Export results |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
+Scaffolding only. No working vision-language search functionality exists.
