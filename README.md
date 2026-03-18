@@ -1,30 +1,63 @@
-# vision-language-search
+# Vision Language Search
 
-**Multimodal search combining vision and language**
+Multimodal search combining vision and language
 
-## Install
+## Features
+
+- Api
+Cli
+Encoders - Image
+Encoders - Text
+Index
+Ranker
+Search Engine
+
+## Tech Stack
+
+- **Language:** Python
+- **Framework:** FastAPI
+- **Key Dependencies:** pydantic,fastapi,uvicorn,anthropic,openai,numpy
+- **Containerization:** Docker + Docker Compose
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.11+
+- Docker & Docker Compose (optional)
+
+### Installation
+
 ```bash
-pip install -e '.[dev]'
+git clone https://github.com/MukundaKatta/vision-language-search.git
+cd vision-language-search
+pip install -r requirements.txt
 ```
 
-## Quick Start
-```python
-from src import __version__
+### Running
+
+```bash
+uvicorn app.main:app --reload
 ```
 
-## Modules
-- **search_engine**
-- **text**
-- **image**
-- **index**
-- **ranker**
-- **api**
-- **cli**
+### Docker
 
-## Docker
 ```bash
-docker compose up
+docker-compose up
+```
+
+## Project Structure
+
+```
+vision-language-search/
+├── src/           # Source code
+├── tests/         # Test suite
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
 ```
 
 ## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+
+MIT
